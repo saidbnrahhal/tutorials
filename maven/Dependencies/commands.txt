@@ -1,0 +1,4 @@
+force maven to update dependencies :
+>mvn clean install -U
+or in eclipse 
+Project_Name->Maven->Update Project Configuration->Force Update of Snapshots/Releases

@@ -1,0 +1,70 @@
+août 06, 2016 1:55:24 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+août 06, 2016 1:55:24 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: init: Global resources are available
+août 06, 2016 1:55:24 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: list: Listing contexts for virtual host 'localhost'
+août 06, 2016 1:57:51 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: list: Listing contexts for virtual host 'localhost'
+août 06, 2016 2:02:35 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: list: Listing contexts for virtual host 'localhost'
+août 06, 2016 2:03:20 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: list: Listing contexts for virtual host 'localhost'
+août 06, 2016 2:04:12 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: list: Listing contexts for virtual host 'localhost'
+août 06, 2016 2:04:27 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: list: Listing contexts for virtual host 'localhost'
+août 06, 2016 2:04:36 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: stop: Stopping web application '/test_tomcat_maven'
+août 06, 2016 2:04:36 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: list: Listing contexts for virtual host 'localhost'
+août 06, 2016 2:07:47 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+août 06, 2016 2:07:47 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: init: Global resources are available
+août 06, 2016 2:07:47 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: list: Listing contexts for virtual host 'localhost'
+août 06, 2016 2:07:58 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: list: Listing contexts for virtual host 'localhost'
+août 06, 2016 2:08:10 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: list: Listing contexts for virtual host 'localhost'
+août 06, 2016 2:13:23 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+août 06, 2016 2:13:23 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: init: Global resources are available
+août 06, 2016 2:13:23 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: list: Listing contexts for virtual host 'localhost'
+août 06, 2016 2:18:20 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: list: Listing contexts for virtual host 'localhost'
+août 06, 2016 2:18:26 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: undeploy: Undeploying web application at '/test_tomcat_maven'
+août 06, 2016 2:18:27 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: list: Listing contexts for virtual host 'localhost'
+août 06, 2016 2:30:53 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+août 06, 2016 2:30:53 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: init: Global resources are available
+août 06, 2016 2:30:53 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: list: Listing contexts for virtual host 'localhost'
+août 06, 2016 2:31:02 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: list: Listing contexts for virtual host 'localhost'
+août 06, 2016 2:31:52 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: list: Listing contexts for virtual host 'localhost'
+août 06, 2016 2:31:57 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: list: Listing contexts for virtual host 'localhost'
+août 06, 2016 2:31:58 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: list: Listing contexts for virtual host 'localhost'
+août 06, 2016 2:37:29 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: list: Listing contexts for virtual host 'localhost'
+août 06, 2016 2:37:55 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: list: Listing contexts for virtual host 'localhost'
+août 06, 2016 2:42:12 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+août 06, 2016 2:42:12 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: init: Global resources are available
+août 06, 2016 2:42:12 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: list: Listing contexts for virtual host 'localhost'
+août 06, 2016 2:42:13 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: list: Listing contexts for virtual host 'localhost'
+août 06, 2016 2:42:14 AM org.apache.catalina.core.ApplicationContext log
+INFOS: HTMLManager: list: Listing contexts for virtual host 'localhost'

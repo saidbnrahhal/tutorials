@@ -1,0 +1,5 @@
+*in eclipse you can use the m2eclipse pluging in the elipse (make sure that exist or installed)
+>new project>maven project 
+* you can convert an existant project to maven project .
+select the project choose Configure option > convert to maven project
+ 

@@ -1,0 +1,90 @@
+muti-module Project :
+it allow you to execute some action on multiple project in the same time with attacking the parent project with your maven commands
+* the parent has only the pom.xml file with this data :
+	 <packaging>pom</packaging>
+	 <modules>
+	 	<module>../data-access-module</module>
+	 	<module>../jsf-prestention-module</module>
+	 </modules>
+ 
+ * the child project can have reference to the parent project 
+	  in the pom we have
+	  <parent>
+	  	<groupId></groupId>
+	  	<artifactId></artifactId>
+	  	<version></version>
+	  </parent>
+
+ * best archetype for multimodules project 
+ 	??? missing ??
+
+ * building multimodule project using eclipse 
+	 in eclise 
+	 1)File > New > Maven Project >
+	 2)skip archetype
+	 3)
+	 Group Id :com.said.rahhal
+	 packaging :pom
+	 ......
+	 4) keep the parent selected do
+	  File > New >New Maven Module
+ *
+..................................
+Dependencies management in multimodules project :
+the best practis is the parent project hold the dependency versions :
+we have Business project Data project and Parent project so 
+in the business we have the dependencies :
+<dependency>
+	<groupId>org.springfromawork</groupId>
+	<artifactId>spring-context</artifactId>
+	<version>4.1.0.RELEASE</version>
+</dependency>
+in the data we have :
+<dependency>
+	<groupId>org.springfromawork</groupId>
+	<artifactId>spring-context</artifactId>
+	<version>4.2.3.RELEASE</version>
+</dependency>
+<dependency>
+	<groupId>org.hibernate</groupId>
+	<artifactId>hibernate-core</artifactId>
+	<version>5.0.6.Final</version>
+</dependency>
+so to solve this we go to the parent pom and we do :
+<dependencyManagement>
+	<dependencies>
+		<dependency>
+			<groupId>org.springfromawork</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>4.2.3.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.0.6.Final</version>
+		</dependency>
+	<dependencies>
+</depenencyManagement>
+so now  in the Business:
+<dependency>
+	<groupId>org.springfromawork</groupId>
+	<artifactId>spring-context</artifactId>
+</dependency>
+<dependency>
+	<-- to use Data project inside the business project -->
+	<groupId>com.said.rahhal</groupId>
+	<artifactId>data</artifactId>
+	<version>${project.version}</version>
+	<-- and you can put this dependency in parent pom if you don't want
+	to mentien the version her as you alredy did -->
+</dependency>
+
+in the data we have :
+<dependency>
+	<groupId>org.springfromawork</groupId>
+	<artifactId>spring-context</artifactId>
+</dependency>
+<dependency>
+	<groupId>org.hibernate</groupId>
+	<artifactId>hibernate-core</artifactId>
+</dependency>

@@ -1,0 +1,31 @@
+<dependencies>
+	
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.0.1</version>
+			<scope>provided</scope>
+		</dependency>
+</dependencies>
+	<build>
+		<finalName>test_tomcat_maven</finalName>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.tomcat.maven</groupId>
+					<artifactId>tomcat7-maven-plugin</artifactId>
+					<version>2.2</version>
+					<configuration>
+						<port>8080</port>
+						<path>/</path>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+servlet is provided so eclipse will be happy without this dependency of servlet eclipse will show error that the import of the servlet is unknown 
+the other why to solve the problem in eclipse is to change the target runtime of the project to tomcat (tomcat known by eclipse) but will make problem for maven because this solution is just inside eclipse for maven there is jars messings 
+
+ *building the project
+>mvn clean install
+>mvn tomcat7:run

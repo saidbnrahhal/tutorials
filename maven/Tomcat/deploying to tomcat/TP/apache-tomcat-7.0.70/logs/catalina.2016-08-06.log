@@ -1,0 +1,650 @@
+août 06, 2016 1:41:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server version:        Apache Tomcat/7.0.70
+août 06, 2016 1:41:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server built:          Jun 15 2016 16:27:45 UTC
+août 06, 2016 1:41:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server number:         7.0.70.0
+août 06, 2016 1:41:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Name:               Windows 7
+août 06, 2016 1:41:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Version:            6.1
+août 06, 2016 1:41:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Architecture:          amd64
+août 06, 2016 1:41:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Java Home:             C:\Program Files\Java\jdk1.8.0_51\jre
+août 06, 2016 1:41:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Version:           1.8.0_51-b16
+août 06, 2016 1:41:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Vendor:            Oracle Corporation
+août 06, 2016 1:41:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_BASE:         C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\apache-tomcat-7.0.70
+août 06, 2016 1:41:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_HOME:         C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\apache-tomcat-7.0.70
+août 06, 2016 1:41:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+août 06, 2016 1:41:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.config.file=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\apache-tomcat-7.0.70\conf\logging.properties
+août 06, 2016 1:41:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+août 06, 2016 1:41:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.endorsed.dirs=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\apache-tomcat-7.0.70\endorsed
+août 06, 2016 1:41:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.base=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\apache-tomcat-7.0.70
+août 06, 2016 1:41:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.home=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\apache-tomcat-7.0.70
+août 06, 2016 1:41:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.io.tmpdir=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\apache-tomcat-7.0.70\temp
+août 06, 2016 1:41:34 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFOS: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_51\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\x64\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Skype\Phone\;C:\Maven\maven\bin;C:\Users\rahhal\AppData\Roaming\npm;.
+août 06, 2016 1:41:34 AM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["http-bio-8080"]
+août 06, 2016 1:41:34 AM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 1:41:34 AM org.apache.catalina.startup.Catalina load
+INFOS: Initialization processed in 1115 ms
+août 06, 2016 1:41:34 AM org.apache.catalina.core.StandardService startInternal
+INFOS: Démarrage du service Catalina
+août 06, 2016 1:41:34 AM org.apache.catalina.core.StandardEngine startInternal
+INFOS: Starting Servlet Engine: Apache Tomcat/7.0.70
+août 06, 2016 1:41:34 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\apache-tomcat-7.0.70\webapps\docs de l'application web
+août 06, 2016 1:41:35 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFOS: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [111] milliseconds.
+août 06, 2016 1:41:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\apache-tomcat-7.0.70\webapps\docs has finished in 621 ms
+août 06, 2016 1:41:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\apache-tomcat-7.0.70\webapps\examples de l'application web
+août 06, 2016 1:41:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\apache-tomcat-7.0.70\webapps\examples has finished in 1 672 ms
+août 06, 2016 1:41:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\apache-tomcat-7.0.70\webapps\host-manager de l'application web
+août 06, 2016 1:41:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\apache-tomcat-7.0.70\webapps\host-manager has finished in 188 ms
+août 06, 2016 1:41:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\apache-tomcat-7.0.70\webapps\manager de l'application web
+août 06, 2016 1:41:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\apache-tomcat-7.0.70\webapps\manager has finished in 141 ms
+août 06, 2016 1:41:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\apache-tomcat-7.0.70\webapps\ROOT de l'application web
+août 06, 2016 1:41:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\apache-tomcat-7.0.70\webapps\ROOT has finished in 102 ms
+août 06, 2016 1:41:37 AM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["http-bio-8080"]
+août 06, 2016 1:41:37 AM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 1:41:37 AM org.apache.catalina.startup.Catalina start
+INFOS: Server startup in 2872 ms
+août 06, 2016 1:42:43 AM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["http-bio-8080"]
+août 06, 2016 1:42:43 AM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 1:42:43 AM org.apache.catalina.core.StandardService stopInternal
+INFOS: Arrêt du service Catalina
+août 06, 2016 1:42:43 AM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["http-bio-8080"]
+août 06, 2016 1:42:43 AM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 1:42:43 AM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["http-bio-8080"]
+août 06, 2016 1:42:43 AM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 1:54:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server version:        Apache Tomcat/7.0.70
+août 06, 2016 1:54:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server built:          Jun 15 2016 16:27:45 UTC
+août 06, 2016 1:54:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server number:         7.0.70.0
+août 06, 2016 1:54:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Name:               Windows 7
+août 06, 2016 1:54:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Version:            6.1
+août 06, 2016 1:54:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Architecture:          amd64
+août 06, 2016 1:54:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Java Home:             C:\Program Files\Java\jdk1.8.0_51\jre
+août 06, 2016 1:54:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Version:           1.8.0_51-b16
+août 06, 2016 1:54:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Vendor:            Oracle Corporation
+août 06, 2016 1:54:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_BASE:         C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70
+août 06, 2016 1:54:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_HOME:         C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70
+août 06, 2016 1:54:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+août 06, 2016 1:54:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.config.file=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\conf\logging.properties
+août 06, 2016 1:54:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+août 06, 2016 1:54:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.endorsed.dirs=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\endorsed
+août 06, 2016 1:54:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.base=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70
+août 06, 2016 1:54:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.home=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70
+août 06, 2016 1:54:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.io.tmpdir=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\temp
+août 06, 2016 1:54:54 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFOS: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_51\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\x64\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Skype\Phone\;C:\Maven\maven\bin;C:\Users\rahhal\AppData\Roaming\npm;.
+août 06, 2016 1:54:55 AM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["http-bio-8080"]
+août 06, 2016 1:54:55 AM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 1:54:55 AM org.apache.catalina.startup.Catalina load
+INFOS: Initialization processed in 912 ms
+août 06, 2016 1:54:55 AM org.apache.catalina.core.StandardService startInternal
+INFOS: Démarrage du service Catalina
+août 06, 2016 1:54:55 AM org.apache.catalina.core.StandardEngine startInternal
+INFOS: Starting Servlet Engine: Apache Tomcat/7.0.70
+août 06, 2016 1:54:55 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\docs de l'application web
+août 06, 2016 1:54:55 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFOS: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [116] milliseconds.
+août 06, 2016 1:54:55 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\docs has finished in 550 ms
+août 06, 2016 1:54:55 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\examples de l'application web
+août 06, 2016 1:54:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\examples has finished in 617 ms
+août 06, 2016 1:54:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\host-manager de l'application web
+août 06, 2016 1:54:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\host-manager has finished in 107 ms
+août 06, 2016 1:54:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\manager de l'application web
+août 06, 2016 1:54:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\manager has finished in 117 ms
+août 06, 2016 1:54:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\ROOT de l'application web
+août 06, 2016 1:54:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\ROOT has finished in 85 ms
+août 06, 2016 1:54:56 AM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["http-bio-8080"]
+août 06, 2016 1:54:56 AM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 1:54:56 AM org.apache.catalina.startup.Catalina start
+INFOS: Server startup in 1567 ms
+août 06, 2016 2:03:20 AM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Déploiement de l'archive C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\test_tomcat_maven.war de l'application web
+août 06, 2016 2:03:20 AM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Deployment of web application archive C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\test_tomcat_maven.war has finished in 235 ms
+août 06, 2016 2:06:47 AM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["http-bio-8080"]
+août 06, 2016 2:06:47 AM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 2:06:48 AM org.apache.catalina.core.StandardService stopInternal
+INFOS: Arrêt du service Catalina
+août 06, 2016 2:06:48 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+GRAVE: The web application [/examples] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak.
+août 06, 2016 2:06:48 AM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["http-bio-8080"]
+août 06, 2016 2:06:48 AM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 2:06:48 AM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["http-bio-8080"]
+août 06, 2016 2:06:48 AM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 2:07:40 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server version:        Apache Tomcat/7.0.70
+août 06, 2016 2:07:40 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server built:          Jun 15 2016 16:27:45 UTC
+août 06, 2016 2:07:40 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server number:         7.0.70.0
+août 06, 2016 2:07:40 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Name:               Windows 7
+août 06, 2016 2:07:40 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Version:            6.1
+août 06, 2016 2:07:40 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Architecture:          amd64
+août 06, 2016 2:07:40 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Java Home:             C:\Program Files\Java\jdk1.8.0_51\jre
+août 06, 2016 2:07:40 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Version:           1.8.0_51-b16
+août 06, 2016 2:07:40 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Vendor:            Oracle Corporation
+août 06, 2016 2:07:40 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_BASE:         C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70
+août 06, 2016 2:07:40 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_HOME:         C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70
+août 06, 2016 2:07:40 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+août 06, 2016 2:07:40 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.config.file=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\conf\logging.properties
+août 06, 2016 2:07:40 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+août 06, 2016 2:07:40 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.endorsed.dirs=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\endorsed
+août 06, 2016 2:07:40 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.base=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70
+août 06, 2016 2:07:40 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.home=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70
+août 06, 2016 2:07:40 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.io.tmpdir=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\temp
+août 06, 2016 2:07:40 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFOS: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_51\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\x64\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Skype\Phone\;C:\Maven\maven\bin;C:\Users\rahhal\AppData\Roaming\npm;.
+août 06, 2016 2:07:41 AM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["http-bio-8080"]
+août 06, 2016 2:07:41 AM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 2:07:41 AM org.apache.catalina.startup.Catalina load
+INFOS: Initialization processed in 958 ms
+août 06, 2016 2:07:41 AM org.apache.catalina.core.StandardService startInternal
+INFOS: Démarrage du service Catalina
+août 06, 2016 2:07:41 AM org.apache.catalina.core.StandardEngine startInternal
+INFOS: Starting Servlet Engine: Apache Tomcat/7.0.70
+août 06, 2016 2:07:41 AM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Déploiement de l'archive C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\test_tomcat_maven.war de l'application web
+août 06, 2016 2:07:41 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFOS: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [138] milliseconds.
+août 06, 2016 2:07:42 AM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Deployment of web application archive C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\test_tomcat_maven.war has finished in 743 ms
+août 06, 2016 2:07:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\docs de l'application web
+août 06, 2016 2:07:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\docs has finished in 135 ms
+août 06, 2016 2:07:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\examples de l'application web
+août 06, 2016 2:07:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\examples has finished in 696 ms
+août 06, 2016 2:07:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\host-manager de l'application web
+août 06, 2016 2:07:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\host-manager has finished in 114 ms
+août 06, 2016 2:07:42 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\manager de l'application web
+août 06, 2016 2:07:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\manager has finished in 115 ms
+août 06, 2016 2:07:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\ROOT de l'application web
+août 06, 2016 2:07:43 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\ROOT has finished in 113 ms
+août 06, 2016 2:07:43 AM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["http-bio-8080"]
+août 06, 2016 2:07:43 AM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 2:07:43 AM org.apache.catalina.startup.Catalina start
+INFOS: Server startup in 2016 ms
+août 06, 2016 2:10:36 AM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["http-bio-8080"]
+août 06, 2016 2:10:36 AM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 2:10:36 AM org.apache.catalina.core.StandardService stopInternal
+INFOS: Arrêt du service Catalina
+août 06, 2016 2:10:36 AM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["http-bio-8080"]
+août 06, 2016 2:10:36 AM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 2:10:36 AM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["http-bio-8080"]
+août 06, 2016 2:10:36 AM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 2:10:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server version:        Apache Tomcat/7.0.70
+août 06, 2016 2:10:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server built:          Jun 15 2016 16:27:45 UTC
+août 06, 2016 2:10:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server number:         7.0.70.0
+août 06, 2016 2:10:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Name:               Windows 7
+août 06, 2016 2:10:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Version:            6.1
+août 06, 2016 2:10:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Architecture:          amd64
+août 06, 2016 2:10:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Java Home:             C:\Program Files\Java\jdk1.8.0_51\jre
+août 06, 2016 2:10:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Version:           1.8.0_51-b16
+août 06, 2016 2:10:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Vendor:            Oracle Corporation
+août 06, 2016 2:10:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_BASE:         C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70
+août 06, 2016 2:10:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_HOME:         C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70
+août 06, 2016 2:10:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+août 06, 2016 2:10:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.config.file=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\conf\logging.properties
+août 06, 2016 2:10:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+août 06, 2016 2:10:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.endorsed.dirs=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\endorsed
+août 06, 2016 2:10:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.base=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70
+août 06, 2016 2:10:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.home=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70
+août 06, 2016 2:10:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.io.tmpdir=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\temp
+août 06, 2016 2:10:54 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFOS: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_51\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\x64\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Skype\Phone\;C:\Maven\maven\bin;C:\Users\rahhal\AppData\Roaming\npm;.
+août 06, 2016 2:10:54 AM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["http-bio-8080"]
+août 06, 2016 2:10:54 AM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 2:10:54 AM org.apache.catalina.startup.Catalina load
+INFOS: Initialization processed in 954 ms
+août 06, 2016 2:10:54 AM org.apache.catalina.core.StandardService startInternal
+INFOS: Démarrage du service Catalina
+août 06, 2016 2:10:54 AM org.apache.catalina.core.StandardEngine startInternal
+INFOS: Starting Servlet Engine: Apache Tomcat/7.0.70
+août 06, 2016 2:10:54 AM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Déploiement de l'archive C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\test_tomcat_maven.war de l'application web
+août 06, 2016 2:10:55 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFOS: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [112] milliseconds.
+août 06, 2016 2:10:55 AM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Deployment of web application archive C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\test_tomcat_maven.war has finished in 644 ms
+août 06, 2016 2:10:55 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\docs de l'application web
+août 06, 2016 2:10:55 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\docs has finished in 92 ms
+août 06, 2016 2:10:55 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\examples de l'application web
+août 06, 2016 2:10:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\examples has finished in 582 ms
+août 06, 2016 2:10:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\host-manager de l'application web
+août 06, 2016 2:10:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\host-manager has finished in 106 ms
+août 06, 2016 2:10:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\manager de l'application web
+août 06, 2016 2:10:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\manager has finished in 108 ms
+août 06, 2016 2:10:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\ROOT de l'application web
+août 06, 2016 2:10:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\ROOT has finished in 94 ms
+août 06, 2016 2:10:56 AM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["http-bio-8080"]
+août 06, 2016 2:10:56 AM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 2:10:56 AM org.apache.catalina.startup.Catalina start
+INFOS: Server startup in 1750 ms
+août 06, 2016 2:11:39 AM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["http-bio-8080"]
+août 06, 2016 2:11:39 AM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 2:11:39 AM org.apache.catalina.core.StandardService stopInternal
+INFOS: Arrêt du service Catalina
+août 06, 2016 2:11:39 AM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["http-bio-8080"]
+août 06, 2016 2:11:39 AM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 2:11:39 AM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["http-bio-8080"]
+août 06, 2016 2:11:39 AM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 2:13:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server version:        Apache Tomcat/7.0.70
+août 06, 2016 2:13:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server built:          Jun 15 2016 16:27:45 UTC
+août 06, 2016 2:13:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server number:         7.0.70.0
+août 06, 2016 2:13:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Name:               Windows 7
+août 06, 2016 2:13:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Version:            6.1
+août 06, 2016 2:13:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Architecture:          amd64
+août 06, 2016 2:13:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Java Home:             C:\Program Files\Java\jdk1.8.0_51\jre
+août 06, 2016 2:13:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Version:           1.8.0_51-b16
+août 06, 2016 2:13:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Vendor:            Oracle Corporation
+août 06, 2016 2:13:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_BASE:         C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70
+août 06, 2016 2:13:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_HOME:         C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70
+août 06, 2016 2:13:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+août 06, 2016 2:13:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.config.file=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\conf\logging.properties
+août 06, 2016 2:13:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+août 06, 2016 2:13:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.endorsed.dirs=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\endorsed
+août 06, 2016 2:13:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.base=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70
+août 06, 2016 2:13:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.home=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70
+août 06, 2016 2:13:07 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.io.tmpdir=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\temp
+août 06, 2016 2:13:07 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFOS: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_51\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\x64\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Skype\Phone\;C:\Maven\maven\bin;C:\Users\rahhal\AppData\Roaming\npm;.
+août 06, 2016 2:13:07 AM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["http-bio-8080"]
+août 06, 2016 2:13:07 AM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 2:13:07 AM org.apache.catalina.startup.Catalina load
+INFOS: Initialization processed in 930 ms
+août 06, 2016 2:13:07 AM org.apache.catalina.core.StandardService startInternal
+INFOS: Démarrage du service Catalina
+août 06, 2016 2:13:07 AM org.apache.catalina.core.StandardEngine startInternal
+INFOS: Starting Servlet Engine: Apache Tomcat/7.0.70
+août 06, 2016 2:13:07 AM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Déploiement de l'archive C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\test_tomcat_maven.war de l'application web
+août 06, 2016 2:13:08 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFOS: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [121] milliseconds.
+août 06, 2016 2:13:08 AM org.apache.catalina.startup.HostConfig deployWAR
+INFOS: Deployment of web application archive C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\test_tomcat_maven.war has finished in 658 ms
+août 06, 2016 2:13:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\docs de l'application web
+août 06, 2016 2:13:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\docs has finished in 109 ms
+août 06, 2016 2:13:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\examples de l'application web
+août 06, 2016 2:13:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\examples has finished in 560 ms
+août 06, 2016 2:13:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\host-manager de l'application web
+août 06, 2016 2:13:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\host-manager has finished in 140 ms
+août 06, 2016 2:13:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\manager de l'application web
+août 06, 2016 2:13:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\manager has finished in 109 ms
+août 06, 2016 2:13:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\ROOT de l'application web
+août 06, 2016 2:13:09 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\ROOT has finished in 72 ms
+août 06, 2016 2:13:09 AM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["http-bio-8080"]
+août 06, 2016 2:13:09 AM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 2:13:09 AM org.apache.catalina.startup.Catalina start
+INFOS: Server startup in 1751 ms
+août 06, 2016 2:18:26 AM org.apache.catalina.startup.HostConfig undeploy
+INFOS: Repli (undeploy) de l'application web ayant pour chemin de contexte /test_tomcat_maven
+août 06, 2016 2:21:05 AM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["http-bio-8080"]
+août 06, 2016 2:21:05 AM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 2:21:05 AM org.apache.catalina.core.StandardService stopInternal
+INFOS: Arrêt du service Catalina
+août 06, 2016 2:21:05 AM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["http-bio-8080"]
+août 06, 2016 2:21:05 AM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 2:21:05 AM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["http-bio-8080"]
+août 06, 2016 2:21:05 AM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 2:30:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server version:        Apache Tomcat/7.0.70
+août 06, 2016 2:30:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server built:          Jun 15 2016 16:27:45 UTC
+août 06, 2016 2:30:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server number:         7.0.70.0
+août 06, 2016 2:30:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Name:               Windows 7
+août 06, 2016 2:30:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Version:            6.1
+août 06, 2016 2:30:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Architecture:          amd64
+août 06, 2016 2:30:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Java Home:             C:\Program Files\Java\jdk1.8.0_51\jre
+août 06, 2016 2:30:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Version:           1.8.0_51-b16
+août 06, 2016 2:30:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Vendor:            Oracle Corporation
+août 06, 2016 2:30:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_BASE:         C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70
+août 06, 2016 2:30:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_HOME:         C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70
+août 06, 2016 2:30:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+août 06, 2016 2:30:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.config.file=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\conf\logging.properties
+août 06, 2016 2:30:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+août 06, 2016 2:30:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.endorsed.dirs=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\endorsed
+août 06, 2016 2:30:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.base=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70
+août 06, 2016 2:30:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.home=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70
+août 06, 2016 2:30:22 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.io.tmpdir=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\temp
+août 06, 2016 2:30:22 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFOS: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_51\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\x64\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Skype\Phone\;C:\Maven\maven\bin;C:\Users\rahhal\AppData\Roaming\npm;.
+août 06, 2016 2:30:22 AM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["http-bio-8080"]
+août 06, 2016 2:30:22 AM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 2:30:22 AM org.apache.catalina.startup.Catalina load
+INFOS: Initialization processed in 944 ms
+août 06, 2016 2:30:22 AM org.apache.catalina.core.StandardService startInternal
+INFOS: Démarrage du service Catalina
+août 06, 2016 2:30:22 AM org.apache.catalina.core.StandardEngine startInternal
+INFOS: Starting Servlet Engine: Apache Tomcat/7.0.70
+août 06, 2016 2:30:22 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\docs de l'application web
+août 06, 2016 2:30:23 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFOS: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [129] milliseconds.
+août 06, 2016 2:30:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\docs has finished in 600 ms
+août 06, 2016 2:30:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\examples de l'application web
+août 06, 2016 2:30:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\examples has finished in 601 ms
+août 06, 2016 2:30:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\host-manager de l'application web
+août 06, 2016 2:30:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\host-manager has finished in 139 ms
+août 06, 2016 2:30:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\manager de l'application web
+août 06, 2016 2:30:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\manager has finished in 123 ms
+août 06, 2016 2:30:23 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\ROOT de l'application web
+août 06, 2016 2:30:24 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\ROOT has finished in 88 ms
+août 06, 2016 2:30:24 AM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["http-bio-8080"]
+août 06, 2016 2:30:24 AM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 2:30:24 AM org.apache.catalina.startup.Catalina start
+INFOS: Server startup in 1642 ms
+août 06, 2016 2:41:04 AM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["http-bio-8080"]
+août 06, 2016 2:41:04 AM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 2:41:04 AM org.apache.catalina.core.StandardService stopInternal
+INFOS: Arrêt du service Catalina
+août 06, 2016 2:41:04 AM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["http-bio-8080"]
+août 06, 2016 2:41:04 AM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 2:41:04 AM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["http-bio-8080"]
+août 06, 2016 2:41:04 AM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 2:42:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server version:        Apache Tomcat/7.0.70
+août 06, 2016 2:42:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server built:          Jun 15 2016 16:27:45 UTC
+août 06, 2016 2:42:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Server number:         7.0.70.0
+août 06, 2016 2:42:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Name:               Windows 7
+août 06, 2016 2:42:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: OS Version:            6.1
+août 06, 2016 2:42:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Architecture:          amd64
+août 06, 2016 2:42:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Java Home:             C:\Program Files\Java\jdk1.8.0_51\jre
+août 06, 2016 2:42:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Version:           1.8.0_51-b16
+août 06, 2016 2:42:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: JVM Vendor:            Oracle Corporation
+août 06, 2016 2:42:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_BASE:         C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70
+août 06, 2016 2:42:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: CATALINA_HOME:         C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70
+août 06, 2016 2:42:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+août 06, 2016 2:42:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.config.file=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\conf\logging.properties
+août 06, 2016 2:42:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+août 06, 2016 2:42:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.endorsed.dirs=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\endorsed
+août 06, 2016 2:42:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.base=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70
+août 06, 2016 2:42:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Dcatalina.home=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70
+août 06, 2016 2:42:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFOS: Command line argument: -Djava.io.tmpdir=C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\temp
+août 06, 2016 2:42:02 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFOS: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_51\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\x64\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Skype\Phone\;C:\Maven\maven\bin;C:\Users\rahhal\AppData\Roaming\npm;.
+août 06, 2016 2:42:02 AM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["http-bio-8080"]
+août 06, 2016 2:42:02 AM org.apache.coyote.AbstractProtocol init
+INFOS: Initializing ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 2:42:02 AM org.apache.catalina.startup.Catalina load
+INFOS: Initialization processed in 895 ms
+août 06, 2016 2:42:02 AM org.apache.catalina.core.StandardService startInternal
+INFOS: Démarrage du service Catalina
+août 06, 2016 2:42:02 AM org.apache.catalina.core.StandardEngine startInternal
+INFOS: Starting Servlet Engine: Apache Tomcat/7.0.70
+août 06, 2016 2:42:02 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\docs de l'application web
+août 06, 2016 2:42:02 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFOS: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [119] milliseconds.
+août 06, 2016 2:42:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\docs has finished in 579 ms
+août 06, 2016 2:42:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\examples de l'application web
+août 06, 2016 2:42:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\examples has finished in 620 ms
+août 06, 2016 2:42:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\host-manager de l'application web
+août 06, 2016 2:42:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\host-manager has finished in 129 ms
+août 06, 2016 2:42:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\manager de l'application web
+août 06, 2016 2:42:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\manager has finished in 122 ms
+août 06, 2016 2:42:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Déploiement du répertoire C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\ROOT de l'application web
+août 06, 2016 2:42:03 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFOS: Deployment of web application directory C:\Users\rahhal\Desktop\valuble\maven\Tomcat\deploying to tomcat\TP\apache-tomcat-7.0.70\webapps\ROOT has finished in 87 ms
+août 06, 2016 2:42:03 AM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["http-bio-8080"]
+août 06, 2016 2:42:04 AM org.apache.coyote.AbstractProtocol start
+INFOS: Starting ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 2:42:04 AM org.apache.catalina.startup.Catalina start
+INFOS: Server startup in 1625 ms
+août 06, 2016 2:43:27 AM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["http-bio-8080"]
+août 06, 2016 2:43:27 AM org.apache.coyote.AbstractProtocol pause
+INFOS: Pausing ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 2:43:27 AM org.apache.catalina.core.StandardService stopInternal
+INFOS: Arrêt du service Catalina
+août 06, 2016 2:43:27 AM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["http-bio-8080"]
+août 06, 2016 2:43:27 AM org.apache.coyote.AbstractProtocol stop
+INFOS: Stopping ProtocolHandler ["ajp-bio-8009"]
+août 06, 2016 2:43:27 AM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["http-bio-8080"]
+août 06, 2016 2:43:27 AM org.apache.coyote.AbstractProtocol destroy
+INFOS: Destroying ProtocolHandler ["ajp-bio-8009"]

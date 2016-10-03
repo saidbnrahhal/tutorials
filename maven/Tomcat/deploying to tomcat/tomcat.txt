@@ -1,0 +1,75 @@
+configuring tomcat :
+if we start the tomcat from the bundle :
+apache-tomcate-xxx/apache-tomcate-xxx/bin/startup.sh
+not from eclipse in the http://localhose:8080 
+we will find a welcome page in manage it will ask us for name and password if we 
+cancel it tomcat will tell us how to set thos value
+or in :
+apache-tomcate-xxx/apache-tomcate-xxx/conf/tomcat-users.xml
+you set :
+<user username="tomcat(1)" password="s3cret(2)" roles="manager-gui" />
+.................
+configuring maven to deploye to tomcat 
+in apache-maven-xxxx-bin/apache-maven-xxx/conf/setting.xml
+
+<servers>
+	..
+	...
+	<server>
+		<id>tomcat-server</id>
+		<username>tomcat(1)</username>
+		<password>s3cert(2)</password>
+	</server>
+	...
+	..
+</servers>
+.............................
+in the project
+<build>
+	<finalName>my-webapp(1)</finalName>
+	<plugins>
+		<plugin>
+			<groupId>org.apache.tomcat.maven</groupId>
+			<artifactId>tomcat7-maven-plugin</artifactId>
+			<version>2.2</version>
+			<configuration>
+				<url>http://localhost:8080/manager/text</url>
+				<server>tomcat-server</server>
+			</configuration>
+		</plugin>
+	</plugins>
+</build>
+the next step is to deploy the project
+>cd my-webapp(1)
+>mvn tomcat7:deploy
+..........................
+encrypting apache-maven-xxxx-bin/apache-maven-xxx/conf/setting.xml
+mvn -emp test
+{qsdjfmljlsdfnlmsdnflmkkqsdf55686sdfgsdfg6sdf5g=}(1)
+and encrypting the password 
+>mvn -ep s3cret
+{jilalilwald2moonflmkk686sdfgsdfg6sdf5g=}(2)
+
+and in .m2  we create the file setting-security.xml
+<settingsSecurity>
+	<master>{qsdjfmljlsdfnlmsdnflmkkqsdf55686sdfgsdfg6sdf5g=}(1)</master>
+</settingsSecurity>
+
+in apache-maven-xxxx-bin/apache-maven-xxx/conf/setting.xml
+<servers>
+	..
+	...
+	<server>
+		<id>tomcat-server</id>
+		<username>tomcat</username>
+		<password>{jilalilwald2moonflmkk686sdfgsdfg6sdf5g=}(2)</password>
+	</server>
+	...
+	..
+</servers>
+
+*if you have a application deployed you can undeployed with
+>mvn tomcat7:undeploy
+then 
+>mvn tomcat7:deploy
+................................

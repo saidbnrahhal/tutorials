@@ -1,0 +1,14 @@
+maven now work as runner 
+to run the entire unit test :
+>mvn test
+to run single test :
+>mvn -Dtest=TestApp1 test
+
+to skip test :
+in pom
+<configuration>
+	<skipTests>true</skipTests>
+</configuration>
+in commands :
+> mvn install -Dmaven.test.skip=true
+> mvn package -Dmaven.test.skip=true

@@ -1,0 +1,15 @@
+Building our own archetype:
+1 : we need simple maven project that we want to torn it into archetype
+	in generating the project use name of group id and artifact id carefully because you gonna use it after .
+2 : we use the command 
+	>mvn archetype:creat-from-project
+	 we can see after the command a archetype folder under 
+	 target : target >generated-sources-archetype>archetype
+	 you can see also that in the pom of the generated archetype we have 
+	 the type of packaging is a maven-archetype
+3 : installing the archetype to our local repository
+	>cd  target/generated-sources-archetype/archetype
+	>maven install 
+4 : using the new archetype 
+    >first-archetype-template
+    you can use a different group id  and artifact id .

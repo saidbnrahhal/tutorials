@@ -1,0 +1,14 @@
+install with skiping the test :
+>mvn clean install -DskipTests
+run maven in the debug mode with more log an informations to show 
+>mvn -X clean install 
+to print the pom with supper pom 
+>mvn help:effective-pom
+send the result to output file 
+>mvn help:effective-pom -Doutput=filename.xml
+printing the effective setting somethings about the local repo:
+>mvn help:effective-settings
+for more info about the dependencies
+>mvn dependency:tree  
+>mvn dependency:soureces 
+to downloading  the sources of the dependencies

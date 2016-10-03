@@ -1,0 +1,23 @@
+src/main/java 	
+src/main/resources
+src/main/webapp 	
+src/test/java 
+src/test/resources 	
+src/site
+................................
+and you can changed
+
+change the source folder:
+<sourceDirectory>src</sourceDirectory>
+<testSourceDirectory>test</testSourceDirectory>
+
+change the target folder:
+<plugin>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>2.3</version>
+        <configuration>
+          <warSourceDirectory>WebContent</warSourceDirectory>
+          <failOnMissingWebXml>false</failOnMissingWebXml>
+        </configuration>
+</plugin>
+all the test class names should end up with Test

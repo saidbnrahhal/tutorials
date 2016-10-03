@@ -1,0 +1,23 @@
+......................
+@joincolumn vs @jointable
+......................
+//////////////////////
+
+........................
+bidirectional  vs unidirectional
+........................
+//////////////////////
+
+..........................
+	Child parent
+sa7ib l3isma the owner of the relation ship 
+..........................
+owning side is most often, if not always, where the @JoinColumn annotation must be specified
+the owning side will have foreign key in his table that represent the inverse side.
+the inverse  "non-owning" side use mappedBy .
+@OneToMany(mappedBy="series") can be used in the inverse side.
+If the relationship is unidirectional there really isn't an owning side,
+and there isn't any mappedBy annotations.
+ For ManyToOne there is no mappedBy so the entity specified under the OneToMany annotation that owns the relationship.
+ Cascading from Child to Parent is not very useful and usually, it’s a mapping code smell.
+//////////////////////

@@ -1,0 +1,12 @@
+unzip the file of maven in specific  folder an create a folder fo maven repository .
+
+in maven/config/setting.xml
+we set the repo location 
+<localRepository>C:\\Maven\\maven-repo</localRepository>
+
+
+ordinateur >option>proprites >Parametres systeme avances
+>Variable d'envieroonement
+variables systeme
+PATH c:\.......\maven\bin
+M2_HOME C:......\maven

@@ -1,0 +1,31 @@
+1)after downloading the tomcat and unziped we run it 
+2)in the page http://localhost:8080 after clicking on Manger App we see that we need username and password
+3)set the user name and password in tomcat by changing the file tomcat-users.xml
+  <user username="tomcat" password="s3cret" roles="manager-gui" /> we add this line 
+4)the page http://localhost:8080/manager/html/ give us the control on the server we can deploy a war file or undeploy 
+an application from this page 
+we can add the user more roles by the changing the line to be 
+<user username="tomcat" password="s3cret" roles="admin-gui,manager-gui"/>
+5)to do all this things ,deploy and undeploy to the same server and from the same project but this time using
+the commande line we do :
+change the pom.xml :
+<build>
+		<finalName>test_tomcat_maven</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<version>2.2</version>
+				<configuration>
+					<url>http://localhost:8080/manager/text</url>
+					<server>tomcat-server</server>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+change the setting for maven and adding thos lines to C:\Maven\maven\conf:
+   <server>
+      <id>tomcat-server</id>
+      <username>tomcat</username>
+      <password>s3cert</password> opps it didnt work for me untel i correct the password
+   </server>
